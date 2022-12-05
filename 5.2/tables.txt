@@ -1,8 +1,0 @@
-const arr1 = [0, 0, 0, "L", "C", "G", "M", "Q"];
-const arr2 = ["G", "H", "F", "T", "C", "L", "D", "R"];
-const arr3 = ["R", "W", "T", "M", "N", "F", "V", "J"];
-const arr4 = [0, 0, "P", "Q", "V", "D", "F", "J"];
-const arr5 = [0, "T", "B", "L", "S", "M", "F", "N"];
-const arr6 = [0, "P", "D", "C", "H", "V", "N", "R"];
-const arr7 = ["P", "H", "N", "Z", "V", "J", "S", "G"];
-const arr8 = [0, 0, 0, 0, "G", "H", "F", "Z"];

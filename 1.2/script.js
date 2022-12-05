@@ -37,14 +37,14 @@ async function ready(){
                 {
                     max3 = nowmax;
                 }
-                console.log(max1, max2, max3, nowmax);
+                //console.log(max1, max2, max3, nowmax);
                 nowmax = 0;
             }
           });
 
-          var max = [max1, max2, max3];
+          var sum = [max1, max2, max3].reduce((a,b) => a  + b, 0);
 
-          displayContents(max);
+          displayContents(sum);
         };
         reader.readAsText(file);
       }

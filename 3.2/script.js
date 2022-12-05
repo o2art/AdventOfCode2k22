@@ -87,7 +87,7 @@ function ready(){
                 });
             };
 
-            console.log(priorities);
+            //console.log(priorities);
 
             var score = 0;
             priorities.every(element => {

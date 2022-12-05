@@ -52,9 +52,9 @@ async function ready(){
             //console.log(containsAll1, containsAll2, score);
           });
 
-          console.log(score);
+          //console.log(score);
 
-          displayContents(contents);
+          displayContents(score);
         };
         reader.readAsText(file);
       }

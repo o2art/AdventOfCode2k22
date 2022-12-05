@@ -24,7 +24,7 @@ function ready(){
           var lose = 0;
 
           var type = new Enum(["X", "Y", "Z"]);
-          console.log(type.X, type.Y, type.Z);
+          //console.log(type.X, type.Y, type.Z);
 
           arrofcon.forEach(element => {
             if(element.includes("A"))

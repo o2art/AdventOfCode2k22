@@ -38,7 +38,7 @@ async function ready(){
                 if(i >= s2_min) arr2.push(i);
             }
 
-            console.log(arr1, arr2);
+            //console.log(arr1, arr2);
 
             var containsAll1 = arr1.some(element => {
                 return arr2.includes(element);
@@ -49,12 +49,11 @@ async function ready(){
             });
 
             if(containsAll1 || containsAll2) score++;
-            console.log(containsAll1, containsAll2, score);
           });
 
-          console.log(score);
+          //console.log(score);
 
-          displayContents(contents);
+          displayContents(score);
         };
         reader.readAsText(file);
       }
